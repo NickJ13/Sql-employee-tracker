@@ -1,9 +1,9 @@
 -- delete and create tables
-DROP DATABASE IF EXISTS employee_db;
-CREATE DATABASE employee_db;
+DROP DATABASE IF EXISTS company_db;
+CREATE DATABASE company_db;
 
 --use database
-USE employee_db
+USE company_db
 -- create tables for the database
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT,
